@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ItemActivity">ItemActivity</string>
+    <string name="MenuActivity" />
+</resources>
