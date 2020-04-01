@@ -57,6 +57,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                         ItemActivity.Items=next;
                         mContext.startActivity(intent);
                     }
+                    holder.priceIn.setText("");
+                    holder.quantityIn.setText("");
+                    holder.titleIn.setText("");
+                    holder.expriryIn.setText("");
                 }
             });
             holder.cancel.setOnClickListener(new View.OnClickListener() {

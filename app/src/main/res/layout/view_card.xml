@@ -17,20 +17,23 @@
 
         <TextView
             android:id="@+id/viewtitle"
-            android:layout_width="146dp"
-            android:layout_height="21dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="152dp"
-            android:layout_marginRight="152dp"
+            android:layout_marginEnd="248dp"
+            android:layout_marginRight="248dp"
             android:layout_marginBottom="8dp"
             android:gravity="left"
-            android:text="Title and Name of the Item"
+            android:text="Chetoos"
             android:textColor="#2d2d2d"
             android:textSize="13sp"
             cardview:layout_constraintBottom_toBottomOf="parent"
             cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
             cardview:layout_constraintTop_toTopOf="parent"
-            cardview:layout_constraintVertical_bias="0.754" />
+            cardview:layout_constraintVertical_bias="0.734" />
 
         <ImageView
             android:id="@+id/viewitemImage"
@@ -45,11 +48,13 @@
 
         <TextView
             android:id="@+id/viewprice"
-            android:layout_width="82dp"
-            android:layout_height="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
             android:layout_marginBottom="8dp"
             android:gravity="left"
             android:text="Price: "
@@ -57,13 +62,17 @@
             android:textSize="13sp"
             cardview:layout_constraintBottom_toBottomOf="parent"
             cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.975"
+            cardview:layout_constraintStart_toEndOf="@+id/viewexpirydate"
             cardview:layout_constraintTop_toTopOf="parent"
-            cardview:layout_constraintVertical_bias="0.887" />
+            cardview:layout_constraintVertical_bias="0.891" />
 
         <TextView
             android:id="@+id/viewquantity"
-            android:layout_width="83dp"
-            android:layout_height="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="44dp"
             android:layout_marginRight="44dp"
@@ -74,16 +83,20 @@
             android:textSize="13sp"
             cardview:layout_constraintBottom_toBottomOf="parent"
             cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="1.0"
+            cardview:layout_constraintStart_toEndOf="@+id/viewtitle"
             cardview:layout_constraintTop_toTopOf="parent"
             cardview:layout_constraintVertical_bias="0.734" />
 
         <TextView
             android:id="@+id/viewexpirydate"
-            android:layout_width="76dp"
-            android:layout_height="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="224dp"
-            android:layout_marginRight="224dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:gravity="right"
             android:text="Expiry Date: "
@@ -91,8 +104,10 @@
             android:textSize="13sp"
             cardview:layout_constraintBottom_toBottomOf="parent"
             cardview:layout_constraintEnd_toEndOf="parent"
+            cardview:layout_constraintHorizontal_bias="0.0"
+            cardview:layout_constraintStart_toStartOf="parent"
             cardview:layout_constraintTop_toTopOf="parent"
-            cardview:layout_constraintVertical_bias="0.886" />
+            cardview:layout_constraintVertical_bias="0.891" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
